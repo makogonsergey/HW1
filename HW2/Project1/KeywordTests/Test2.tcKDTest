@@ -1,0 +1,666 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="parameters">
+			<Prp name="key" type="S" value="{16F2A5D0-E26D-408E-8F0B-57326185909E}"/>
+		</Node>
+		<Node name="settings">
+			<Prp name="settingsversion" type="S" value="7.50"/>
+		</Node>
+		<Node name="testdata">
+			<Node name="children">
+				<Node name="child0">
+					<Node name="data">
+						<Node name="parameters">
+							<Node name="parameter0">
+								<Prp name="defvaluetype" type="I" value="1"/>
+								<Prp name="defvaluevalue" type="I" value="-1"/>
+								<Prp name="defvartype" type="I" value="3"/>
+								<Prp name="name" type="S" value="Count"/>
+								<Prp name="paramtype" type="S" value="{EFBF9355-5127-43E4-B03E-D06E65C8181F}"/>
+								<Prp name="valuetype" type="I" value="1"/>
+								<Prp name="valuevalue" type="I" value="-1"/>
+								<Prp name="vartype" type="I" value="3"/>
+							</Node>
+							<Node name="parameter1">
+								<Prp name="defvaluetype" type="I" value="7"/>
+								<Prp name="defvaluevalue" type="B" value="0"/>
+								<Prp name="defvartype" type="I" value="11"/>
+								<Prp name="name" type="S" value="IgnoreRunning"/>
+								<Prp name="paramtype" type="S" value="{EFBF9355-5127-43E4-B03E-D06E65C8181F}"/>
+								<Prp name="valuetype" type="I" value="7"/>
+								<Prp name="valuevalue" type="B" value="0"/>
+								<Prp name="vartype" type="I" value="11"/>
+							</Node>
+							<Node name="parameter2">
+								<Prp name="defvaluetype" type="I" value="1"/>
+								<Prp name="defvaluevalue" type="I" value="-1"/>
+								<Prp name="defvartype" type="I" value="3"/>
+								<Prp name="name" type="S" value="Timeout"/>
+								<Prp name="paramtype" type="S" value="{EFBF9355-5127-43E4-B03E-D06E65C8181F}"/>
+								<Prp name="valuetype" type="I" value="1"/>
+								<Prp name="valuevalue" type="I" value="-1"/>
+								<Prp name="vartype" type="I" value="3"/>
+							</Node>
+							<Prp name="langid" type="S" value="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}"/>
+						</Node>
+						<Prp name="description" type="S" value="Runs the &quot;Orders&quot; tested application."/>
+						<Prp name="testedapp" type="S" value="Orders"/>
+					</Node>
+					<Prp name="type" type="S" value="{66F32D5F-A5DB-420E-9CB4-3DB7CADE2692}"/>
+				</Node>
+				<Node name="child1">
+					<Node name="data">
+						<Node name="objectsyntax">
+							<Prp name="code" type="S" value="Aliases.Orders.MainForm;"/>
+							<Prp name="langid" type="S" value="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}"/>
+						</Node>
+						<Node name="parameters">
+							<Node name="parameter0">
+								<Prp name="defvartype" type="I" value="12"/>
+								<Prp name="name" type="S" value="Item"/>
+								<Prp name="paramtype" type="S" value="{EFBF9355-5127-43E4-B03E-D06E65C8181F}"/>
+								<Prp name="valuetype" type="I" value="6"/>
+								<Prp name="valuevalue" type="S" value="Orders|New order..."/>
+								<Prp name="vartype" type="I" value="8"/>
+							</Node>
+							<Prp name="langid" type="S" value="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}"/>
+						</Node>
+						<Prp name="action" type="S" value="Click"/>
+						<Prp name="description" type="S" value="Moves the mouse cursor to the menu item specified and then simulates a single click."/>
+						<Prp name="menutype" type="I" value="0"/>
+						<Prp name="updatepics" type="B" value="-1"/>
+					</Node>
+					<Prp name="type" type="S" value="{CE294ABA-E13B-4B94-AFC8-FA8F4249123D}"/>
+				</Node>
+				<Node name="child10">
+					<Node name="data">
+						<Node name="objectsyntax">
+							<Prp name="code" type="S" value="Aliases.Orders.OrderForm.Group.City;"/>
+							<Prp name="langid" type="S" value="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}"/>
+						</Node>
+						<Node name="parameters">
+							<Node name="parameter0">
+								<Prp name="defvartype" type="I" value="0"/>
+								<Prp name="name" type="S" value="Param1"/>
+								<Prp name="paramtype" type="S" value="{EFBF9355-5127-43E4-B03E-D06E65C8181F}"/>
+								<Prp name="valuetype" type="I" value="1"/>
+								<Prp name="valuevalue" type="I" value="102"/>
+								<Prp name="vartype" type="I" value="3"/>
+							</Node>
+							<Node name="parameter1">
+								<Prp name="defvartype" type="I" value="0"/>
+								<Prp name="name" type="S" value="Param2"/>
+								<Prp name="paramtype" type="S" value="{EFBF9355-5127-43E4-B03E-D06E65C8181F}"/>
+								<Prp name="valuetype" type="I" value="1"/>
+								<Prp name="valuevalue" type="I" value="11"/>
+								<Prp name="vartype" type="I" value="3"/>
+							</Node>
+							<Prp name="langid" type="S" value="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}"/>
+						</Node>
+						<Prp name="action" type="S" value="Click"/>
+						<Prp name="description" type="S" value="Clicks at point (102, 11) of the 'City' object."/>
+						<Prp name="descriptionedited" type="B" value="-1"/>
+						<Prp name="initialized" type="B" value="-1"/>
+						<Prp name="invokekind" type="I" value="-1"/>
+					</Node>
+					<Prp name="type" type="S" value="{575D0372-CCEB-4D0F-AFE8-D2004F108913}"/>
+				</Node>
+				<Node name="child11">
+					<Node name="data">
+						<Node name="objectsyntax">
+							<Prp name="code" type="S" value="Aliases.Orders.OrderForm.Group.City;"/>
+							<Prp name="langid" type="S" value="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}"/>
+						</Node>
+						<Node name="parameters">
+							<Node name="parameter0">
+								<Prp name="defvartype" type="I" value="0"/>
+								<Prp name="name" type="S" value="Param1"/>
+								<Prp name="paramtype" type="S" value="{EFBF9355-5127-43E4-B03E-D06E65C8181F}"/>
+								<Prp name="valuetype" type="I" value="6"/>
+								<Prp name="valuevalue" type="S" value="gg"/>
+								<Prp name="vartype" type="I" value="8"/>
+							</Node>
+							<Prp name="langid" type="S" value="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}"/>
+						</Node>
+						<Prp name="action" type="S" value="wText"/>
+						<Prp name="description" type="S" value="Sets the text 'gg' in the 'City' text editor."/>
+						<Prp name="descriptionedited" type="B" value="-1"/>
+						<Prp name="initialized" type="B" value="-1"/>
+						<Prp name="invokekind" type="I" value="2"/>
+					</Node>
+					<Prp name="type" type="S" value="{575D0372-CCEB-4D0F-AFE8-D2004F108913}"/>
+				</Node>
+				<Node name="child12">
+					<Node name="data">
+						<Node name="objectsyntax">
+							<Prp name="code" type="S" value="Aliases.Orders.OrderForm.Group.State;"/>
+							<Prp name="langid" type="S" value="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}"/>
+						</Node>
+						<Node name="parameters">
+							<Node name="parameter0">
+								<Prp name="defvartype" type="I" value="0"/>
+								<Prp name="name" type="S" value="Param1"/>
+								<Prp name="paramtype" type="S" value="{EFBF9355-5127-43E4-B03E-D06E65C8181F}"/>
+								<Prp name="valuetype" type="I" value="1"/>
+								<Prp name="valuevalue" type="I" value="70"/>
+								<Prp name="vartype" type="I" value="3"/>
+							</Node>
+							<Node name="parameter1">
+								<Prp name="defvartype" type="I" value="0"/>
+								<Prp name="name" type="S" value="Param2"/>
+								<Prp name="paramtype" type="S" value="{EFBF9355-5127-43E4-B03E-D06E65C8181F}"/>
+								<Prp name="valuetype" type="I" value="1"/>
+								<Prp name="valuevalue" type="I" value="14"/>
+								<Prp name="vartype" type="I" value="3"/>
+							</Node>
+							<Prp name="langid" type="S" value="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}"/>
+						</Node>
+						<Prp name="action" type="S" value="Click"/>
+						<Prp name="description" type="S" value="Clicks at point (70, 14) of the 'State' object."/>
+						<Prp name="descriptionedited" type="B" value="-1"/>
+						<Prp name="initialized" type="B" value="-1"/>
+						<Prp name="invokekind" type="I" value="-1"/>
+					</Node>
+					<Prp name="type" type="S" value="{575D0372-CCEB-4D0F-AFE8-D2004F108913}"/>
+				</Node>
+				<Node name="child13">
+					<Node name="data">
+						<Node name="objectsyntax">
+							<Prp name="code" type="S" value="Aliases.Orders.OrderForm.Group.State;"/>
+							<Prp name="langid" type="S" value="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}"/>
+						</Node>
+						<Node name="parameters">
+							<Node name="parameter0">
+								<Prp name="defvartype" type="I" value="0"/>
+								<Prp name="name" type="S" value="Param1"/>
+								<Prp name="paramtype" type="S" value="{EFBF9355-5127-43E4-B03E-D06E65C8181F}"/>
+								<Prp name="valuetype" type="I" value="6"/>
+								<Prp name="valuevalue" type="S" value="hh"/>
+								<Prp name="vartype" type="I" value="8"/>
+							</Node>
+							<Prp name="langid" type="S" value="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}"/>
+						</Node>
+						<Prp name="action" type="S" value="wText"/>
+						<Prp name="description" type="S" value="Sets the text 'hh' in the 'State' text editor."/>
+						<Prp name="descriptionedited" type="B" value="-1"/>
+						<Prp name="initialized" type="B" value="-1"/>
+						<Prp name="invokekind" type="I" value="2"/>
+					</Node>
+					<Prp name="type" type="S" value="{575D0372-CCEB-4D0F-AFE8-D2004F108913}"/>
+				</Node>
+				<Node name="child14">
+					<Node name="data">
+						<Node name="objectsyntax">
+							<Prp name="code" type="S" value="Aliases.Orders.OrderForm.Group.Zip;"/>
+							<Prp name="langid" type="S" value="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}"/>
+						</Node>
+						<Node name="parameters">
+							<Node name="parameter0">
+								<Prp name="defvartype" type="I" value="0"/>
+								<Prp name="name" type="S" value="Param1"/>
+								<Prp name="paramtype" type="S" value="{EFBF9355-5127-43E4-B03E-D06E65C8181F}"/>
+								<Prp name="valuetype" type="I" value="1"/>
+								<Prp name="valuevalue" type="I" value="88"/>
+								<Prp name="vartype" type="I" value="3"/>
+							</Node>
+							<Node name="parameter1">
+								<Prp name="defvartype" type="I" value="0"/>
+								<Prp name="name" type="S" value="Param2"/>
+								<Prp name="paramtype" type="S" value="{EFBF9355-5127-43E4-B03E-D06E65C8181F}"/>
+								<Prp name="valuetype" type="I" value="1"/>
+								<Prp name="valuevalue" type="I" value="14"/>
+								<Prp name="vartype" type="I" value="3"/>
+							</Node>
+							<Prp name="langid" type="S" value="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}"/>
+						</Node>
+						<Prp name="action" type="S" value="Click"/>
+						<Prp name="description" type="S" value="Clicks at point (88, 14) of the 'Zip' object."/>
+						<Prp name="descriptionedited" type="B" value="-1"/>
+						<Prp name="initialized" type="B" value="-1"/>
+						<Prp name="invokekind" type="I" value="-1"/>
+					</Node>
+					<Prp name="type" type="S" value="{575D0372-CCEB-4D0F-AFE8-D2004F108913}"/>
+				</Node>
+				<Node name="child15">
+					<Node name="data">
+						<Node name="objectsyntax">
+							<Prp name="code" type="S" value="Aliases.Orders.OrderForm.Group.Zip;"/>
+							<Prp name="langid" type="S" value="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}"/>
+						</Node>
+						<Node name="parameters">
+							<Node name="parameter0">
+								<Prp name="defvartype" type="I" value="0"/>
+								<Prp name="name" type="S" value="Param1"/>
+								<Prp name="paramtype" type="S" value="{EFBF9355-5127-43E4-B03E-D06E65C8181F}"/>
+								<Prp name="valuetype" type="I" value="6"/>
+								<Prp name="valuevalue" type="S" value="56"/>
+								<Prp name="vartype" type="I" value="8"/>
+							</Node>
+							<Prp name="langid" type="S" value="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}"/>
+						</Node>
+						<Prp name="action" type="S" value="wText"/>
+						<Prp name="description" type="S" value="Sets the text '56' in the 'Zip' text editor."/>
+						<Prp name="descriptionedited" type="B" value="-1"/>
+						<Prp name="initialized" type="B" value="-1"/>
+						<Prp name="invokekind" type="I" value="2"/>
+					</Node>
+					<Prp name="type" type="S" value="{575D0372-CCEB-4D0F-AFE8-D2004F108913}"/>
+				</Node>
+				<Node name="child16">
+					<Node name="data">
+						<Node name="objectsyntax">
+							<Prp name="code" type="S" value="Aliases.Orders.OrderForm.Group.MasterCard;"/>
+							<Prp name="langid" type="S" value="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}"/>
+						</Node>
+						<Node name="parameters"/>
+						<Prp name="action" type="S" value="ClickButton"/>
+						<Prp name="description" type="S" value="Clicks the 'MasterCard' button."/>
+						<Prp name="descriptionedited" type="B" value="-1"/>
+						<Prp name="initialized" type="B" value="-1"/>
+						<Prp name="invokekind" type="I" value="-1"/>
+					</Node>
+					<Prp name="type" type="S" value="{575D0372-CCEB-4D0F-AFE8-D2004F108913}"/>
+				</Node>
+				<Node name="child17">
+					<Node name="data">
+						<Node name="objectsyntax">
+							<Prp name="code" type="S" value="Aliases.Orders.OrderForm.Group.CardNo;"/>
+							<Prp name="langid" type="S" value="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}"/>
+						</Node>
+						<Node name="parameters">
+							<Node name="parameter0">
+								<Prp name="defvartype" type="I" value="0"/>
+								<Prp name="name" type="S" value="Param1"/>
+								<Prp name="paramtype" type="S" value="{EFBF9355-5127-43E4-B03E-D06E65C8181F}"/>
+								<Prp name="valuetype" type="I" value="1"/>
+								<Prp name="valuevalue" type="I" value="66"/>
+								<Prp name="vartype" type="I" value="3"/>
+							</Node>
+							<Node name="parameter1">
+								<Prp name="defvartype" type="I" value="0"/>
+								<Prp name="name" type="S" value="Param2"/>
+								<Prp name="paramtype" type="S" value="{EFBF9355-5127-43E4-B03E-D06E65C8181F}"/>
+								<Prp name="valuetype" type="I" value="1"/>
+								<Prp name="valuevalue" type="I" value="11"/>
+								<Prp name="vartype" type="I" value="3"/>
+							</Node>
+							<Prp name="langid" type="S" value="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}"/>
+						</Node>
+						<Prp name="action" type="S" value="Click"/>
+						<Prp name="description" type="S" value="Clicks at point (66, 11) of the 'CardNo' object."/>
+						<Prp name="descriptionedited" type="B" value="-1"/>
+						<Prp name="initialized" type="B" value="-1"/>
+						<Prp name="invokekind" type="I" value="-1"/>
+					</Node>
+					<Prp name="type" type="S" value="{575D0372-CCEB-4D0F-AFE8-D2004F108913}"/>
+				</Node>
+				<Node name="child18">
+					<Node name="data">
+						<Node name="objectsyntax">
+							<Prp name="code" type="S" value="Aliases.Orders.OrderForm.Group.CardNo;"/>
+							<Prp name="langid" type="S" value="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}"/>
+						</Node>
+						<Node name="parameters">
+							<Node name="parameter0">
+								<Prp name="defvartype" type="I" value="0"/>
+								<Prp name="name" type="S" value="Param1"/>
+								<Prp name="paramtype" type="S" value="{EFBF9355-5127-43E4-B03E-D06E65C8181F}"/>
+								<Prp name="valuetype" type="I" value="6"/>
+								<Prp name="valuevalue" type="S" value="treyy"/>
+								<Prp name="vartype" type="I" value="8"/>
+							</Node>
+							<Prp name="langid" type="S" value="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}"/>
+						</Node>
+						<Prp name="action" type="S" value="wText"/>
+						<Prp name="description" type="S" value="Sets the text 'treyy' in the 'CardNo' text editor."/>
+						<Prp name="descriptionedited" type="B" value="-1"/>
+						<Prp name="initialized" type="B" value="-1"/>
+						<Prp name="invokekind" type="I" value="2"/>
+					</Node>
+					<Prp name="type" type="S" value="{575D0372-CCEB-4D0F-AFE8-D2004F108913}"/>
+				</Node>
+				<Node name="child19">
+					<Node name="data">
+						<Node name="objectsyntax">
+							<Prp name="code" type="S" value="Aliases.Orders.OrderForm.Group.ExpDate;"/>
+							<Prp name="langid" type="S" value="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}"/>
+						</Node>
+						<Node name="parameters">
+							<Node name="parameter0">
+								<Prp name="defvartype" type="I" value="0"/>
+								<Prp name="name" type="S" value="Param1"/>
+								<Prp name="paramtype" type="S" value="{EFBF9355-5127-43E4-B03E-D06E65C8181F}"/>
+								<Prp name="valuetype" type="I" value="6"/>
+								<Prp name="valuevalue" type="S" value="3/6/2005"/>
+								<Prp name="vartype" type="I" value="8"/>
+							</Node>
+							<Prp name="langid" type="S" value="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}"/>
+						</Node>
+						<Prp name="action" type="S" value="wDate"/>
+						<Prp name="description" type="S" value="Sets the date '3/6/2005' in the 'ExpDate' date/time picker."/>
+						<Prp name="descriptionedited" type="B" value="-1"/>
+						<Prp name="initialized" type="B" value="-1"/>
+						<Prp name="invokekind" type="I" value="2"/>
+					</Node>
+					<Prp name="type" type="S" value="{575D0372-CCEB-4D0F-AFE8-D2004F108913}"/>
+				</Node>
+				<Node name="child2">
+					<Node name="data">
+						<Node name="objectsyntax">
+							<Prp name="code" type="S" value="Aliases.Orders.OrderForm.Group.ProductNames;"/>
+							<Prp name="langid" type="S" value="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}"/>
+						</Node>
+						<Node name="parameters">
+							<Node name="parameter0">
+								<Prp name="defvartype" type="I" value="0"/>
+								<Prp name="name" type="S" value="Param1"/>
+								<Prp name="paramtype" type="S" value="{EFBF9355-5127-43E4-B03E-D06E65C8181F}"/>
+								<Prp name="valuetype" type="I" value="6"/>
+								<Prp name="valuevalue" type="S" value="FamilyAlbum"/>
+								<Prp name="vartype" type="I" value="8"/>
+							</Node>
+							<Prp name="langid" type="S" value="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}"/>
+						</Node>
+						<Prp name="action" type="S" value="ClickItem"/>
+						<Prp name="description" type="S" value="Selects the 'FamilyAlbum' item of the 'ProductNames' combo-box."/>
+						<Prp name="descriptionedited" type="B" value="-1"/>
+						<Prp name="initialized" type="B" value="-1"/>
+						<Prp name="invokekind" type="I" value="-1"/>
+					</Node>
+					<Prp name="type" type="S" value="{575D0372-CCEB-4D0F-AFE8-D2004F108913}"/>
+				</Node>
+				<Node name="child20">
+					<Node name="data">
+						<Node name="objectsyntax">
+							<Prp name="code" type="S" value="Aliases.Orders.OrderForm.Group.ExpDate;"/>
+							<Prp name="langid" type="S" value="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}"/>
+						</Node>
+						<Node name="parameters">
+							<Node name="parameter0">
+								<Prp name="defvartype" type="I" value="0"/>
+								<Prp name="name" type="S" value="Param1"/>
+								<Prp name="paramtype" type="S" value="{EFBF9355-5127-43E4-B03E-D06E65C8181F}"/>
+								<Prp name="valuetype" type="I" value="6"/>
+								<Prp name="valuevalue" type="S" value="4/6/2005"/>
+								<Prp name="vartype" type="I" value="8"/>
+							</Node>
+							<Prp name="langid" type="S" value="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}"/>
+						</Node>
+						<Prp name="action" type="S" value="wDate"/>
+						<Prp name="description" type="S" value="Sets the date '4/6/2005' in the 'ExpDate' date/time picker."/>
+						<Prp name="descriptionedited" type="B" value="-1"/>
+						<Prp name="initialized" type="B" value="-1"/>
+						<Prp name="invokekind" type="I" value="2"/>
+					</Node>
+					<Prp name="type" type="S" value="{575D0372-CCEB-4D0F-AFE8-D2004F108913}"/>
+				</Node>
+				<Node name="child21">
+					<Node name="data">
+						<Node name="objectsyntax">
+							<Prp name="code" type="S" value="Aliases.Orders.OrderForm.Group.ExpDate;"/>
+							<Prp name="langid" type="S" value="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}"/>
+						</Node>
+						<Node name="parameters">
+							<Node name="parameter0">
+								<Prp name="defvartype" type="I" value="0"/>
+								<Prp name="name" type="S" value="Param1"/>
+								<Prp name="paramtype" type="S" value="{EFBF9355-5127-43E4-B03E-D06E65C8181F}"/>
+								<Prp name="valuetype" type="I" value="6"/>
+								<Prp name="valuevalue" type="S" value="5/6/2005"/>
+								<Prp name="vartype" type="I" value="8"/>
+							</Node>
+							<Prp name="langid" type="S" value="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}"/>
+						</Node>
+						<Prp name="action" type="S" value="wDate"/>
+						<Prp name="description" type="S" value="Sets the date '5/6/2005' in the 'ExpDate' date/time picker."/>
+						<Prp name="descriptionedited" type="B" value="-1"/>
+						<Prp name="initialized" type="B" value="-1"/>
+						<Prp name="invokekind" type="I" value="2"/>
+					</Node>
+					<Prp name="type" type="S" value="{575D0372-CCEB-4D0F-AFE8-D2004F108913}"/>
+				</Node>
+				<Node name="child22">
+					<Node name="data">
+						<Node name="objectsyntax">
+							<Prp name="code" type="S" value="Aliases.Orders.OrderForm.ButtonOK;"/>
+							<Prp name="langid" type="S" value="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}"/>
+						</Node>
+						<Node name="parameters"/>
+						<Prp name="action" type="S" value="ClickButton"/>
+						<Prp name="description" type="S" value="Clicks the 'ButtonOK' button."/>
+						<Prp name="descriptionedited" type="B" value="-1"/>
+						<Prp name="initialized" type="B" value="-1"/>
+						<Prp name="invokekind" type="I" value="-1"/>
+					</Node>
+					<Prp name="type" type="S" value="{575D0372-CCEB-4D0F-AFE8-D2004F108913}"/>
+				</Node>
+				<Node name="child3">
+					<Node name="data">
+						<Node name="objectsyntax">
+							<Prp name="code" type="S" value="Aliases.Orders.OrderForm.Group.Quantity;"/>
+							<Prp name="langid" type="S" value="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}"/>
+						</Node>
+						<Node name="parameters">
+							<Node name="parameter0">
+								<Prp name="defvartype" type="I" value="0"/>
+								<Prp name="name" type="S" value="Param1"/>
+								<Prp name="paramtype" type="S" value="{EFBF9355-5127-43E4-B03E-D06E65C8181F}"/>
+								<Prp name="valuetype" type="I" value="1"/>
+								<Prp name="valuevalue" type="I" value="3"/>
+								<Prp name="vartype" type="I" value="3"/>
+							</Node>
+							<Prp name="langid" type="S" value="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}"/>
+						</Node>
+						<Prp name="action" type="S" value="wValue"/>
+						<Prp name="description" type="S" value="Sets the value of the UpDown control 'Quantity' to 3."/>
+						<Prp name="descriptionedited" type="B" value="-1"/>
+						<Prp name="initialized" type="B" value="-1"/>
+						<Prp name="invokekind" type="I" value="2"/>
+					</Node>
+					<Prp name="type" type="S" value="{575D0372-CCEB-4D0F-AFE8-D2004F108913}"/>
+				</Node>
+				<Node name="child4">
+					<Node name="data">
+						<Node name="objectsyntax">
+							<Prp name="code" type="S" value="Aliases.Orders.OrderForm.Group.Date;"/>
+							<Prp name="langid" type="S" value="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}"/>
+						</Node>
+						<Node name="parameters">
+							<Node name="parameter0">
+								<Prp name="defvartype" type="I" value="0"/>
+								<Prp name="name" type="S" value="Param1"/>
+								<Prp name="paramtype" type="S" value="{EFBF9355-5127-43E4-B03E-D06E65C8181F}"/>
+								<Prp name="valuetype" type="I" value="6"/>
+								<Prp name="valuevalue" type="S" value="3/6/2005"/>
+								<Prp name="vartype" type="I" value="8"/>
+							</Node>
+							<Prp name="langid" type="S" value="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}"/>
+						</Node>
+						<Prp name="action" type="S" value="wDate"/>
+						<Prp name="description" type="S" value="Sets the date '3/6/2005' in the 'Date' date/time picker."/>
+						<Prp name="descriptionedited" type="B" value="-1"/>
+						<Prp name="initialized" type="B" value="-1"/>
+						<Prp name="invokekind" type="I" value="2"/>
+					</Node>
+					<Prp name="type" type="S" value="{575D0372-CCEB-4D0F-AFE8-D2004F108913}"/>
+				</Node>
+				<Node name="child5">
+					<Node name="data">
+						<Node name="objectsyntax">
+							<Prp name="code" type="S" value="Aliases.Orders.OrderForm.Group.Date;"/>
+							<Prp name="langid" type="S" value="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}"/>
+						</Node>
+						<Node name="parameters">
+							<Node name="parameter0">
+								<Prp name="defvartype" type="I" value="0"/>
+								<Prp name="name" type="S" value="Param1"/>
+								<Prp name="paramtype" type="S" value="{EFBF9355-5127-43E4-B03E-D06E65C8181F}"/>
+								<Prp name="valuetype" type="I" value="6"/>
+								<Prp name="valuevalue" type="S" value="2/6/2005"/>
+								<Prp name="vartype" type="I" value="8"/>
+							</Node>
+							<Prp name="langid" type="S" value="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}"/>
+						</Node>
+						<Prp name="action" type="S" value="wDate"/>
+						<Prp name="description" type="S" value="Sets the date '2/6/2005' in the 'Date' date/time picker."/>
+						<Prp name="descriptionedited" type="B" value="-1"/>
+						<Prp name="initialized" type="B" value="-1"/>
+						<Prp name="invokekind" type="I" value="2"/>
+					</Node>
+					<Prp name="type" type="S" value="{575D0372-CCEB-4D0F-AFE8-D2004F108913}"/>
+				</Node>
+				<Node name="child6">
+					<Node name="data">
+						<Node name="objectsyntax">
+							<Prp name="code" type="S" value="Aliases.Orders.OrderForm.Group.Customer;"/>
+							<Prp name="langid" type="S" value="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}"/>
+						</Node>
+						<Node name="parameters">
+							<Node name="parameter0">
+								<Prp name="defvartype" type="I" value="0"/>
+								<Prp name="name" type="S" value="Param1"/>
+								<Prp name="paramtype" type="S" value="{EFBF9355-5127-43E4-B03E-D06E65C8181F}"/>
+								<Prp name="valuetype" type="I" value="1"/>
+								<Prp name="valuevalue" type="I" value="83"/>
+								<Prp name="vartype" type="I" value="3"/>
+							</Node>
+							<Node name="parameter1">
+								<Prp name="defvartype" type="I" value="0"/>
+								<Prp name="name" type="S" value="Param2"/>
+								<Prp name="paramtype" type="S" value="{EFBF9355-5127-43E4-B03E-D06E65C8181F}"/>
+								<Prp name="valuetype" type="I" value="1"/>
+								<Prp name="valuevalue" type="I" value="12"/>
+								<Prp name="vartype" type="I" value="3"/>
+							</Node>
+							<Prp name="langid" type="S" value="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}"/>
+						</Node>
+						<Prp name="action" type="S" value="Click"/>
+						<Prp name="description" type="S" value="Clicks at point (83, 12) of the 'Customer' object."/>
+						<Prp name="descriptionedited" type="B" value="-1"/>
+						<Prp name="initialized" type="B" value="-1"/>
+						<Prp name="invokekind" type="I" value="-1"/>
+					</Node>
+					<Prp name="type" type="S" value="{575D0372-CCEB-4D0F-AFE8-D2004F108913}"/>
+				</Node>
+				<Node name="child7">
+					<Node name="data">
+						<Node name="objectsyntax">
+							<Prp name="code" type="S" value="Aliases.Orders.OrderForm.Group.Customer;"/>
+							<Prp name="langid" type="S" value="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}"/>
+						</Node>
+						<Node name="parameters">
+							<Node name="parameter0">
+								<Prp name="defvartype" type="I" value="0"/>
+								<Prp name="name" type="S" value="Param1"/>
+								<Prp name="paramtype" type="S" value="{EFBF9355-5127-43E4-B03E-D06E65C8181F}"/>
+								<Prp name="valuetype" type="I" value="6"/>
+								<Prp name="valuevalue" type="S" value="hhj  j"/>
+								<Prp name="vartype" type="I" value="8"/>
+							</Node>
+							<Prp name="langid" type="S" value="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}"/>
+						</Node>
+						<Prp name="action" type="S" value="wText"/>
+						<Prp name="description" type="S" value="Sets the text 'hhj  j' in the 'Customer' text editor."/>
+						<Prp name="descriptionedited" type="B" value="-1"/>
+						<Prp name="initialized" type="B" value="-1"/>
+						<Prp name="invokekind" type="I" value="2"/>
+					</Node>
+					<Prp name="type" type="S" value="{575D0372-CCEB-4D0F-AFE8-D2004F108913}"/>
+				</Node>
+				<Node name="child8">
+					<Node name="data">
+						<Node name="objectsyntax">
+							<Prp name="code" type="S" value="Aliases.Orders.OrderForm.Group.Street;"/>
+							<Prp name="langid" type="S" value="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}"/>
+						</Node>
+						<Node name="parameters">
+							<Node name="parameter0">
+								<Prp name="defvartype" type="I" value="0"/>
+								<Prp name="name" type="S" value="Param1"/>
+								<Prp name="paramtype" type="S" value="{EFBF9355-5127-43E4-B03E-D06E65C8181F}"/>
+								<Prp name="valuetype" type="I" value="1"/>
+								<Prp name="valuevalue" type="I" value="50"/>
+								<Prp name="vartype" type="I" value="3"/>
+							</Node>
+							<Node name="parameter1">
+								<Prp name="defvartype" type="I" value="0"/>
+								<Prp name="name" type="S" value="Param2"/>
+								<Prp name="paramtype" type="S" value="{EFBF9355-5127-43E4-B03E-D06E65C8181F}"/>
+								<Prp name="valuetype" type="I" value="1"/>
+								<Prp name="valuevalue" type="I" value="12"/>
+								<Prp name="vartype" type="I" value="3"/>
+							</Node>
+							<Prp name="langid" type="S" value="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}"/>
+						</Node>
+						<Prp name="action" type="S" value="Click"/>
+						<Prp name="description" type="S" value="Clicks at point (50, 12) of the 'Street' object."/>
+						<Prp name="descriptionedited" type="B" value="-1"/>
+						<Prp name="initialized" type="B" value="-1"/>
+						<Prp name="invokekind" type="I" value="-1"/>
+					</Node>
+					<Prp name="type" type="S" value="{575D0372-CCEB-4D0F-AFE8-D2004F108913}"/>
+				</Node>
+				<Node name="child9">
+					<Node name="data">
+						<Node name="objectsyntax">
+							<Prp name="code" type="S" value="Aliases.Orders.OrderForm.Group.Street;"/>
+							<Prp name="langid" type="S" value="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}"/>
+						</Node>
+						<Node name="parameters">
+							<Node name="parameter0">
+								<Prp name="defvartype" type="I" value="0"/>
+								<Prp name="name" type="S" value="Param1"/>
+								<Prp name="paramtype" type="S" value="{EFBF9355-5127-43E4-B03E-D06E65C8181F}"/>
+								<Prp name="valuetype" type="I" value="6"/>
+								<Prp name="valuevalue" type="S" value="jj"/>
+								<Prp name="vartype" type="I" value="8"/>
+							</Node>
+							<Prp name="langid" type="S" value="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}"/>
+						</Node>
+						<Prp name="action" type="S" value="wText"/>
+						<Prp name="description" type="S" value="Sets the text 'jj' in the 'Street' text editor."/>
+						<Prp name="descriptionedited" type="B" value="-1"/>
+						<Prp name="initialized" type="B" value="-1"/>
+						<Prp name="invokekind" type="I" value="2"/>
+					</Node>
+					<Prp name="type" type="S" value="{575D0372-CCEB-4D0F-AFE8-D2004F108913}"/>
+				</Node>
+				<Prp name="childcount" type="I" value="23"/>
+			</Node>
+			<Node name="data">
+				<Node name="extenders">
+					<Node name="{800193e8-4656-48c9-a7dc-10ff396c56a4}"/>
+				</Node>
+			</Node>
+			<Prp name="description" type="S" value=""/>
+			<Prp name="key" type="S" value="{011C3AE0-980E-4673-AF90-BE2888400ABC}"/>
+			<Prp name="type" type="S" value="{79147B28-EE20-4294-B773-1D3787FBF37B}"/>
+		</Node>
+		<Node name="variables">
+			<Node name="datav3"/>
+			<Prp name="key" type="S" value="{DBD4AF21-B36A-4B93-A881-FFB293352E76}"/>
+			<Prp name="version" type="I" value="3"/>
+		</Node>
+		<Prp name="signature" type="S" value="{B9D9273E-7266-43E0-BF02-97F168593604}"/>
+		<Prp name="version" type="S" value="7.0"/>
+	</Node>
+</Nodes>

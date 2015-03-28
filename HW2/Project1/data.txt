@@ -1,0 +1,6 @@
+Product,Quantity,Date,Customer,Street,City,State,Zip,CardType,CardNo,CardExpDate
+MyMoney,1,2.2.2000,John First,Paris,Cambridge,IL,067876,MasterCard,1111111111112222,1.1.2025
+ScreenSaver,2,1.2.1984,Kate Second,NewMoscow,Rock,NY,123456,Visa,2222111133334444,7.8.2015
+MyMoney,3,6.20.1981,Bill Third,OldPraha,Denver,TX,678123,AmericanExpress,9999888855552222,11.11.2020
+ScreenSaver,4,10.20.1999,Bob Fourth,LittleKairo,Summerville,IN,678124,MasterCard,7777555577775555,2.22.2019
+FamilyAlbum,5,4.1.1988,Will Fifth,Baker,Summerville,AL,111111,AE,6666777733338888,3.11.2017
