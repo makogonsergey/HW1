@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="message 3">
+			<Prp name="date" type="D" value="42091.6298580671"/>
+			<Prp name="priority" type="I" value="400"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="color" type="I" value="-252645136"/>
+			<Prp name="id" type="I" value="3"/>
+			<Prp name="bkcolor" type="I" value="-252645136"/>
+			<Prp name="message" type="S" value="The object does not exist."/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="remarks" type="S" value="An error occurred when executing the &quot;Click&quot; method or property of the &quot;Edit&quot; object.&#xA;The object or one of its parent objects was not found in the system.&#xA;&#xA;Tested Object&#xA;------------------&#xA;Alias: Aliases.NOTEPAD.wndNotepad.Edit&#xA;Mapping item: NameMapping.Sys.NOTEPAD.wndNotepad.Edit&#xA;&#xA;Missing Object&#xA;------------------&#xA;Alias: Aliases.NOTEPAD&#xA;Mapping item: NameMapping.Sys.NOTEPAD"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="stack beginning" type="I" value="2"/>
+			<Prp name="line no" type="I" value="1"/>
+			<Prp name="stack end" type="I" value="2"/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 2">
+			<Prp name="date" type="D" value="42091.6290568056"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="color" type="I" value="-252645136"/>
+			<Prp name="id" type="I" value="2"/>
+			<Prp name="bkcolor" type="I" value="-252645136"/>
+			<Prp name="message" type="S" value="There was an attempt to perform an action at point (38, 270), which is overlapped by another window."/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="remarks" type="S" value="See the previous overlapping window message for details.&#xA;&#xA;Aliases.Explorer.wndProgman.SHELLDLL_DefView.FolderView&#xA;(Sys.Process(&quot;Explorer&quot;).Window(&quot;Progman&quot;, &quot;Program Manager&quot;, 1).Window(&quot;SHELLDLL_DefView&quot;, &quot;&quot;, 1).Window(&quot;SysListView32&quot;, &quot;FolderView&quot;, 1))"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="stack beginning" type="I" value="1"/>
+			<Prp name="line no" type="I" value="0"/>
+			<Prp name="stack end" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="item 3">
+			<Prp name="stacktext" type="S" value="Test4()"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="2"/>
+		</Node>
+		<Node name="message 1">
+			<Prp name="date" type="D" value="42091.6290565046"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="color" type="I" value="-252645136"/>
+			<Prp name="id" type="I" value="1"/>
+			<Prp name="bkcolor" type="I" value="-252645136"/>
+			<Prp name="message" type="S" value="Overlapping window"/>
+			<Prp name="picture" type="S" value="Picture1.png"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="remarks" type="S" value="Sys.Process(&quot;TestComplete&quot;).Window(&quot;TfrmTCMainForm&quot;, &quot;TestComplete - C:\\Documents and Settings\\Tester\\My Documents\\TestComplete 7 Projects\\HW1\\HW1.pjs&quot;, 1).Window(&quot;TPanel&quot;, &quot;&quot;, 1).Window(&quot;TaqDockingSite&quot;, &quot;&quot;, 1).Window(&quot;TaqWindowSite&quot;, &quot;Project Explorer&quot;, 7).Window(&quot;TtcPSExplorerPanel&quot;, &quot;Project Explorer&quot;, 1).Window(&quot;TcxTreeList&quot;, &quot;&quot;, 1)"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="stack beginning" type="I" value="0"/>
+			<Prp name="line no" type="I" value="0"/>
+			<Prp name="stack end" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="item 2">
+			<Prp name="stacktext" type="S" value="Test4()"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="1"/>
+		</Node>
+		<Node name="message 0">
+			<Prp name="date" type="D" value="42091.6290460648"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="color" type="I" value="-252645136"/>
+			<Prp name="id" type="I" value="0"/>
+			<Prp name="bkcolor" type="I" value="-252645136"/>
+			<Prp name="message" type="S" value="The 'TestComplete - C:\Documents and Settings\Tester\My Documents\TestComplete 7 Projects\HW1\HW1.pjs' window was activated."/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="remarks" type="S" value="Sys.Process(&quot;TestComplete&quot;).Window(&quot;TfrmTCMainForm&quot;, &quot;TestComplete - C:\\Documents and Settings\\Tester\\My Documents\\TestComplete 7 Projects\\HW1\\HW1.pjs&quot;, 1)"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="line no" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="item 1">
+			<Prp name="stacktext" type="S" value="Test4()"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="0"/>
+		</Node>
+		<Node name="item 0">
+			<Prp name="stacktext" type="S" value="Test4()"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="0"/>
+		</Node>
+		<Node name="units">
+			<Prp name="unit 0" type="S" value="{226C35BD-C612-45EF-9574-3C253395FB27}"/>
+		</Node>
+		<Node name="child data"/>
+		<Node name="stack"/>
+		<Node name="message 4">
+			<Prp name="date" type="D" value="42091.6299116204"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="color" type="I" value="-252645136"/>
+			<Prp name="id" type="I" value="4"/>
+			<Prp name="bkcolor" type="I" value="-252645136"/>
+			<Prp name="message" type="S" value="The test execution was interrupted."/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="stack beginning" type="I" value="3"/>
+			<Prp name="line no" type="I" value="2"/>
+			<Prp name="stack end" type="I" value="3"/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Prp name="status" type="I" value="2"/>
+	</Node>
+</Nodes>

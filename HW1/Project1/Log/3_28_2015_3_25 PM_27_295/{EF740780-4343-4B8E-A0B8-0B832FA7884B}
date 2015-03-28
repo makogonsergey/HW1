@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="message 9">
+			<Prp name="date" type="D" value="42091.6429959954"/>
+			<Prp name="priority" type="I" value="400"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="color" type="I" value="-252645136"/>
+			<Prp name="id" type="I" value="9"/>
+			<Prp name="bkcolor" type="I" value="-252645136"/>
+			<Prp name="message" type="S" value="The object does not exist."/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="remarks" type="S" value="An error occurred when executing the &quot;OpenFile&quot; method or property of the &quot;dlgOpen&quot; object.&#xA;The object or one of its parent objects was not found in the system.&#xA;&#xA;Tested Object&#xA;------------------&#xA;Alias: Aliases.NOTEPAD.dlgOpen&#xA;Mapping item: NameMapping.Sys.NOTEPAD.dlgOpen&#xA;&#xA;Missing Object&#xA;------------------&#xA;Alias: Aliases.NOTEPAD&#xA;Mapping item: NameMapping.Sys.NOTEPAD"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="stack beginning" type="I" value="2"/>
+			<Prp name="line no" type="I" value="10"/>
+			<Prp name="stack end" type="I" value="2"/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="stack"/>
+		<Node name="message 8">
+			<Prp name="date" type="D" value="42091.6428797454"/>
+			<Prp name="priority" type="I" value="400"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="color" type="I" value="-252645136"/>
+			<Prp name="id" type="I" value="8"/>
+			<Prp name="bkcolor" type="I" value="-252645136"/>
+			<Prp name="message" type="S" value="The object does not exist."/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="remarks" type="S" value="You are trying to call the &quot;Click&quot; method or property of the &quot;MainMenu&quot; object that does not exist."/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="stack beginning" type="I" value="1"/>
+			<Prp name="line no" type="I" value="9"/>
+			<Prp name="stack end" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 7">
+			<Prp name="date" type="D" value="42091.6428796296"/>
+			<Prp name="priority" type="I" value="400"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="color" type="I" value="-252645136"/>
+			<Prp name="id" type="I" value="7"/>
+			<Prp name="bkcolor" type="I" value="-252645136"/>
+			<Prp name="message" type="S" value="The object does not exist."/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="remarks" type="S" value="An error occurred when executing the &quot;MainMenu&quot; method or property of the &quot;wndNotepad&quot; object.&#xA;The object or one of its parent objects was not found in the system.&#xA;&#xA;Tested Object&#xA;------------------&#xA;Alias: Aliases.NOTEPAD.wndNotepad&#xA;Mapping item: NameMapping.Sys.NOTEPAD.wndNotepad&#xA;&#xA;Missing Object&#xA;------------------&#xA;Alias: Aliases.NOTEPAD&#xA;Mapping item: NameMapping.Sys.NOTEPAD"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="stack beginning" type="I" value="0"/>
+			<Prp name="line no" type="I" value="9"/>
+			<Prp name="stack end" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 6">
+			<Prp name="date" type="D" value="42091.6427637268"/>
+			<Prp name="priority" type="I" value="500"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="color" type="I" value="-252645136"/>
+			<Prp name="id" type="I" value="6"/>
+			<Prp name="bkcolor" type="I" value="-252645136"/>
+			<Prp name="message" type="S" value="There is (are) 1 running instance(s) of &quot;C:\WINDOWS\NOTEPAD.EXE&quot;. New instances will not be launched."/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="type" type="I" value="2"/>
+			<Prp name="line no" type="I" value="8"/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 5">
+			<Prp name="date" type="D" value="42091.6427558449"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="color" type="I" value="-252645136"/>
+			<Prp name="id" type="I" value="5"/>
+			<Prp name="bkcolor" type="I" value="-252645136"/>
+			<Prp name="message" type="S" value="The 'doc1 - Notepad' window was closed."/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="remarks" type="S" value="Aliases.NOTEPAD.wndNotepad&#xA;(Sys.Process(&quot;NOTEPAD&quot;).Window(&quot;Notepad&quot;, &quot;Untitled - Notepad&quot;, 1))"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="line no" type="I" value="7"/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 4">
+			<Prp name="date" type="D" value="42091.642751088"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="color" type="I" value="-252645136"/>
+			<Prp name="id" type="I" value="4"/>
+			<Prp name="bkcolor" type="I" value="-252645136"/>
+			<Prp name="message" type="S" value="The menu item 'File|Save' was clicked."/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="remarks" type="S" value="Aliases.NOTEPAD.wndNotepad.MainMenu&#xA;(Sys.Process(&quot;NOTEPAD&quot;).Window(&quot;Notepad&quot;, &quot;Untitled - Notepad&quot;, 1).MainMenu)"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="line no" type="I" value="6"/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 3">
+			<Prp name="date" type="D" value="42091.6427478472"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="color" type="I" value="-252645136"/>
+			<Prp name="id" type="I" value="3"/>
+			<Prp name="bkcolor" type="I" value="-252645136"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="remarks" type="S" value="'[Enter]edit' was sent as a keyboard input to a window:&#xA;&#xA;Aliases.NOTEPAD.wndNotepad.Edit&#xA;(Sys.Process(&quot;NOTEPAD&quot;).Window(&quot;Notepad&quot;, &quot;doc1 - Notepad&quot;, 1).Window(&quot;Edit&quot;, &quot;&quot;, 1))"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="line no" type="I" value="5"/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 2">
+			<Prp name="date" type="D" value="42091.6427426273"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="color" type="I" value="-252645136"/>
+			<Prp name="id" type="I" value="2"/>
+			<Prp name="bkcolor" type="I" value="-252645136"/>
+			<Prp name="message" type="S" value="The file 'doc1.txt' was selected in the Open dialog."/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="remarks" type="S" value="The file 'C:\Documents and Settings\Tester\Desktop\doc1.txt' was opened as a 'Text Documents (*.txt)' file.&#xA;"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="line no" type="I" value="4"/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 1">
+			<Prp name="date" type="D" value="42091.6427269792"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="color" type="I" value="-252645136"/>
+			<Prp name="id" type="I" value="1"/>
+			<Prp name="bkcolor" type="I" value="-252645136"/>
+			<Prp name="message" type="S" value="The menu item 'File|Open...' was clicked."/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="remarks" type="S" value="Aliases.NOTEPAD.wndNotepad.MainMenu&#xA;(Sys.Process(&quot;NOTEPAD&quot;).Window(&quot;Notepad&quot;, &quot;Untitled - Notepad&quot;, 1).MainMenu)"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="line no" type="I" value="3"/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 0">
+			<Prp name="date" type="D" value="42091.642704838"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="color" type="I" value="-252645136"/>
+			<Prp name="id" type="I" value="0"/>
+			<Prp name="bkcolor" type="I" value="-252645136"/>
+			<Prp name="message" type="S" value="The application &quot;C:\WINDOWS\NOTEPAD.EXE&quot; started."/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="line no" type="I" value="2"/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="item 5">
+			<Prp name="stacktext" type="S" value="Test4"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="11"/>
+		</Node>
+		<Node name="item 4">
+			<Prp name="stacktext" type="S" value="Test4"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="11"/>
+		</Node>
+		<Node name="item 3">
+			<Prp name="stacktext" type="S" value="Test4"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="11"/>
+		</Node>
+		<Node name="item 2">
+			<Prp name="stacktext" type="S" value="Test4"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="10"/>
+		</Node>
+		<Node name="item 1">
+			<Prp name="stacktext" type="S" value="Test4"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="9"/>
+		</Node>
+		<Node name="item 0">
+			<Prp name="stacktext" type="S" value="Test4"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="9"/>
+		</Node>
+		<Node name="units">
+			<Prp name="unit 0" type="S" value="{8FD6A7BA-67A3-4FDC-8F7A-89F350D4D14E}"/>
+		</Node>
+		<Node name="message 13">
+			<Prp name="date" type="D" value="42091.6432023148"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="color" type="I" value="-252645136"/>
+			<Prp name="id" type="I" value="13"/>
+			<Prp name="bkcolor" type="I" value="-252645136"/>
+			<Prp name="message" type="S" value="Script execution was interrupted."/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="line no" type="I" value="-1"/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 12">
+			<Prp name="date" type="D" value="42091.643168125"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="color" type="I" value="-252645136"/>
+			<Prp name="id" type="I" value="12"/>
+			<Prp name="bkcolor" type="I" value="-252645136"/>
+			<Prp name="message" type="S" value="JScript runtime error."/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="remarks" type="S" value="The specified operation cannot be performed.&#xA;Unit: &quot;Unit_2&quot; Line: 12 Column: 3."/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="stack beginning" type="I" value="5"/>
+			<Prp name="line no" type="I" value="11"/>
+			<Prp name="stack end" type="I" value="5"/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="child data"/>
+		<Node name="message 11">
+			<Prp name="date" type="D" value="42091.6431143403"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="color" type="I" value="-252645136"/>
+			<Prp name="id" type="I" value="11"/>
+			<Prp name="bkcolor" type="I" value="-252645136"/>
+			<Prp name="message" type="S" value="Exception"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="remarks" type="S" value="An exception occurred in the &quot;Unit_2&quot; unit at line 12:&#xA;The specified operation cannot be performed."/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="stack beginning" type="I" value="4"/>
+			<Prp name="line no" type="I" value="11"/>
+			<Prp name="stack end" type="I" value="4"/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 10">
+			<Prp name="date" type="D" value="42091.6431123727"/>
+			<Prp name="priority" type="I" value="400"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="color" type="I" value="-252645136"/>
+			<Prp name="id" type="I" value="10"/>
+			<Prp name="bkcolor" type="I" value="-252645136"/>
+			<Prp name="message" type="S" value="The object does not exist."/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="remarks" type="S" value="An error occurred when executing the &quot;wText&quot; method or property of the &quot;Edit&quot; object.&#xA;The object or one of its parent objects was not found in the system.&#xA;&#xA;Tested Object&#xA;------------------&#xA;Alias: Aliases.NOTEPAD.wndNotepad.Edit&#xA;Mapping item: NameMapping.Sys.NOTEPAD.wndNotepad.Edit&#xA;&#xA;Missing Object&#xA;------------------&#xA;Alias: Aliases.NOTEPAD&#xA;Mapping item: NameMapping.Sys.NOTEPAD"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="stack beginning" type="I" value="3"/>
+			<Prp name="line no" type="I" value="11"/>
+			<Prp name="stack end" type="I" value="3"/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Prp name="status" type="I" value="2"/>
+	</Node>
+</Nodes>
